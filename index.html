@@ -1,227 +1,272 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Takohama Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<title>Duo Dynamics | Premium Car & Motor Wash</title>
 
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
+<link rel="stylesheet" href="style.css">
 
-    body {
-      background-color: #f5f6f8;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    /* Navbar */
-    .navbar {
-      transition: top 0.3s;
-    }
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    /* Hero Section */
-    .hero {
-      height: 100vh;
-      background: url("hero.jpg") center/cover no-repeat; /* GANTI FOTO */
-      position: relative;
-      color: white;
-    }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 51, 102, 0.6);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    /* Section spacing */
-    section {
-      padding: 80px 0;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #e0e0e0;
-      padding: 30px 0;
-      text-align: center;
-    }
-  </style>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Takohama</a>
+<header class="navbar">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#about">About Me</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#project">Project</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#contact">Contact</a>
-  </li>
-
-  <!-- LINK GAME KAMU -->
-  <li class="nav-item">
-    <a class="nav-link"
-       href="https://www.simpleplanes.com/u/Technocorp09"
-       target="_blank">
-      My Game
-    </a>
-  </li>
-</ul>
-
-    </div>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<section class="hero d-flex align-items-center justify-content-center text-center">
-  <div class="hero-content">
-    <h1 id="typing-text" class="display-4 fw-bold"></h1>
-  </div>
-</section>
-
-<!-- About Me -->
-<section id="about">
-  <div class="container">
-    <h2 class="text-primary mb-4">About Me</h2>
-    <p class="text-secondary">
-      Halo! Saya Takohama, seorang web developer yang tertarik pada desain modern
-      dan pengembangan website yang simpel namun fungsional.
-    </p>
-  </div>
-</section>
-
-<!-- Project -->
-<section id="project" class="bg-light">
-  <div class="container">
-    <h2 class="text-primary mb-4">Project</h2>
-    <p>Beberapa project yang pernah saya kerjakan akan ditampilkan di sini.</p>
-
-<ul>
-    <li>Kali Linux</li>
-    <li>Jaringan Komputer</li>
-    <li>Sistem Operasi</li>
-    <li>Administrasi Sistem</li>
-    <li>Basic Programming</li>
-</ul>
-    </p>
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="contact">
-  <div class="container">
-    <h2 class="text-primary mb-4">Contact</h2>
-    <p class="text-secondary">
-      <p>
-📧 Kaiji0889@gmail.com
-</p>
-<p>
-📷 @takoham09
-</p>
-<p>
-📱 +62xxxxxxxxxx
-</p>
-
-<div class="container fade-up">
-</h2>
-
-<div class="row g-4">
-
-<div class="col-lg-6">
-<h4>Head Office</h4>
-
-<p>
-Jl. Iskandar<br>
-Pangkalan Bun<br>
-Kalimantan Tengah
-
-</p>
-
-<hr>
+<div class="logo">
+<i class="fa-solid fa-droplet"></i>
+<span>Duo Dynamics</span>
 </div>
 
-<div class="col-lg-6">
+<nav>
 
-<div class="contact-box">
+<a href="#home">Home</a>
 
-<h4>Find Us On Map</h4>
+<a href="#service">Our Service</a>
+
+<a href="#price">Price</a>
+
+<a href="#about">About Us</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>DUO DYNAMICS</h1>
+
+<h2>Premium Car & Motor Wash</h2>
+
+<p>
+Bersih maksimal, cepat, dan profesional.
+Layanan cuci kendaraan modern di Pangkalan Bun.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#price" class="btn-primary">
+Lihat Harga
+</a>
+
+<a href="#contact" class="btn-secondary">
+Hubungi Kami
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICE -->
+
+<section id="service" class="service">
+
+<div class="section-title">
+
+<h2>Our Service</h2>
+
+<p>
+Layanan terbaik untuk kendaraan Anda
+</p>
+
+</div>
+
+<div class="service-container">
+
+<div class="card">
+
+<i class="fa-solid fa-motorcycle"></i>
+
+<h3>Cuci Motor</h3>
+
+<p>
+Pembersihan menyeluruh dengan hasil maksimal.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-car"></i>
+
+<h3>Cuci Mobil</h3>
+
+<p>
+Body wash dan perawatan kendaraan profesional.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-sparkles"></i>
+
+<h3>Detailing</h3>
+
+<p>
+Wax dan detailing premium.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-truck"></i>
+
+<h3>Antar Jemput</h3>
+
+<p>
+Layanan antar jemput khusus motor.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRICE -->
+
+<section id="price" class="price">
+
+<div class="section-title">
+
+<h2>Price List</h2>
+
+</div>
+
+<div class="price-container">
+
+<div class="price-card">
+
+<h3>Cuci Motor</h3>
+
+<div class="price-tag">
+Rp25.000
+</div>
+
+<ul>
+<li>Steam Wash</li>
+<li>Semir Ban</li>
+<li>Lap Microfiber</li>
+</ul>
+
+</div>
+
+<div class="price-card">
+
+<h3>Cuci Mobil</h3>
+
+<div class="price-tag">
+Rp35.000
+</div>
+
+<ul>
+<li>Body Wash</li>
+<li>Vacuum Interior</li>
+<li>Semir Ban</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<div class="section-title">
+
+<h2>About Us</h2>
+
+</div>
+
+<p>
+
+Duo Dynamics adalah layanan cuci kendaraan modern
+yang mengutamakan kualitas, kebersihan, dan kepuasan pelanggan.
+
+</p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<div class="contact-info">
+
+<h2>Hubungi Kami</h2>
+
+<p>
+📍 Pangkalan Bun
+</p>
+
+<p>
+🕗 08.00 - 20.00
+</p>
+
+<p>
+📞 085943124767
+</p>
+
+<a
+href="https://wa.me/6285943124767"
+class="whatsapp-btn">
+
+Chat WhatsApp
+
+</a>
+
+</div>
+
+<div class="map">
 
 <iframe
-src="https://www.google.com/maps?q=Jl+Iskandar+Pangkalan+Bun&output=embed"
+src="https://www.google.com/maps?q=Jl+Edy+Suwargono+Pangkalan+Bun&output=embed"
 width="100%"
-height="320"
-style="border:0;border-radius:15px;"
+height="350"
+style="border:0;"
+allowfullscreen=""
 loading="lazy">
 </iframe>
 
-    </p>
-  </div>
+</div>
+
 </section>
 
-<!-- Footer -->
-<footer id="footer">
-  <p class="mb-0 text-secondary">
-    © 2025 Takohama. All rights reserved.
-  </p>
+<footer>
+
+<h3>Duo Dynamics</h3>
+
+<p>
+Premium Car & Motor Wash
+</p>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
 </footer>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Typing Animation -->
-<script>
-  const text = "Hello, World!";
-  let index = 0;
-  const speed = 120;
-  const typingElement = document.getElementById("typing-text");
-
-  function typeText() {
-    if (index < text.length) {
-      typingElement.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(typeText, speed);
-    }
-  }
-
-  window.addEventListener("load", typeText);
-
-  /* Hide navbar when footer appears */
-  const navbar = document.getElementById("navbar");
-  const footer = document.getElementById("footer");
-
-  window.addEventListener("scroll", () => {
-    const footerTop = footer.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
-
-    if (footerTop < windowHeight) {
-      navbar.style.top = "-80px";
-    } else {
-      navbar.style.top = "0";
-    }
-  });
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
